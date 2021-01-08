@@ -149,6 +149,13 @@ nav h4 {
   margin-left: 5%;
   font-size: 24px;
 }
+nav h4 a {
+  text-decoration: none;
+  color: #ffffff;
+}
+nav h4 a:hover {
+  color: lightblue;
+}
 .navList {
   display: flex;
   margin-right: 5%;
@@ -183,13 +190,13 @@ span:hover {
 }
 .overlay-content {
   position: relative;
-  top: 25%;
+  top: 30%;
   width: 100%;
   text-align: center;
   margin-top: 30px;
 }
 .overlay a {
-  padding: 8px;
+  padding: 2% 0;
   text-decoration: none;
   font-size: 36px;
   color: #FFFFFF;
@@ -202,8 +209,8 @@ span:hover {
 }
 .overlay .closebtn {
   position: absolute;
-  top: 20px;
-  right: 45px;
+  top: -10px;
+  right: 85px;
   font-size: 60px;
 }
 @media screen and (max-height: 500px) {
@@ -218,6 +225,9 @@ span:hover {
     top: 15px;
     right: 35px;
   }
+}
+.massContainer {
+  margin: 0 auto;
 }
 body {
   font-family: Roboto, Arial, sans-serif;
