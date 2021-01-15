@@ -229,6 +229,311 @@ span:hover {
 .massContainer {
   margin: 0 auto;
 }
+.eyeCatch {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  background-image: url(/img/home/home-jumbotron.png);
+  margin-botttom: 10%;
+  background-size: cover;
+}
+@media (max-width: 500px) {
+  .eyeCatch {
+    height: 400px;
+  }
+}
+.eyeCatch p {
+  display: flex;
+  align-items: center;
+  font-size: 56px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-left: 5%;
+  margin-top: 12%;
+}
+@media (max-width: 500px) {
+  .eyeCatch p {
+    margin-top: 15%;
+  }
+}
+.block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 12% 0 12%;
+  margin-top: 5%;
+}
+@media (max-width: 500px) {
+  .block {
+    flex-direction: column-reverse;
+    width: 50%;
+    margin-left: 8%;
+    margin-top: 5%;
+  }
+}
+.block-2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3%;
+}
+@media (max-width: 500px) {
+  .block-2 {
+    flex-direction: column;
+  }
+}
+.block h4 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.block p {
+  font-size: 16px;
+}
+.block-msg-1 {
+  width: 45%;
+  padding-right: 30%;
+}
+@media (max-width: 500px) {
+  .block-msg-1 {
+    width: 175%;
+  }
+}
+.block-msg-2 {
+  width: 100%;
+  margin-bottom: 10%;
+  padding-left: 30%;
+}
+@media (max-width: 500px) {
+  .block-msg-2 {
+    width: 175%;
+    padding-left: 0;
+  }
+}
+.block-msg-1 p {
+  margin-right: 2%;
+}
+@media (max-width: 500px) {
+  .block-msg-1 p {
+    width: 100%;
+  }
+}
+.block button {
+  padding: 2%;
+  margin-top: 4%;
+  width: 150px;
+  height: 50px;
+  border: 1px solid black;
+  background-color: white;
+}
+@media (max-width: 500px) {
+  .block button {
+    width: 100%;
+  }
+}
+.block button:hover {
+  background-color: lightblue;
+  cursor: pointer;
+}
+/* Popup container - can be anything you want */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  user-select: none;
+}
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  animation: fadeIn 1s;
+}
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1 ;
+  }
+}
+.block-img {
+  width: 33%;
+}
+@media (max-width: 500px) {
+  .block-img {
+    height: 500px;
+  }
+}
+.block-img-2 {
+  width: 33%;
+}
+@media (max-width: 500px) {
+  .block-img-2 {
+    height: 500px;
+  }
+}
+@media (max-width: 500px) {
+  .block img {
+    height: 500px;
+    width: 540%;
+  }
+}
+.block-msg {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.block-msg-1 {
+  margin-top: 5%;
+}
+.block-msg-2 {
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.sectionTwoImg {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 200px;
+  margin: 0 25%;
+}
+.rP {
+  font-weight: bold;
+  margin: 0 12% 0 12%;
+  margin-top: 5%;
+  font-size: 24px;
+  margin-bottom: 5%;
+}
+@media (max-width: 500px) {
+  .rP {
+    align-self: center;
+  }
+}
+.imgName {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+}
+@media (max-width: 500px) {
+  .sectionTwoImg {
+    width: 80%;
+    margin-left: 50px;
+  }
+}
+.pNames {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  margin: 0 12% 0 47%;
+  margin-top: -2.5%;
+  background-color: #d8d8d8;
+  width: 295px;
+  height: 90px;
+}
+@media (max-width: 500px) {
+  .pNames {
+    margin: -2.5% 12% 0 18%;
+  }
+}
+.centerText {
+  display: flex;
+  margin: 5% 33%;
+  font-size: 20px;
+}
+@media (max-width: 500px) {
+  .centerText {
+    width: 90%;
+    margin-left: 30px;
+  }
+}
+footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 15%;
+  height: 300px;
+  color: white;
+  background-color: #828282;
+}
+@media (max-width: 500px) {
+  footer {
+    height: 550px;
+    margin-top: 5%;
+  }
+}
+.allFooter {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 6%;
+}
+@media (max-width: 500px) {
+  .allFooter {
+    flex-direction: column;
+  }
+}
+footer ul {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 500px) {
+  footer ul {
+    padding: 1%;
+  }
+}
+footer li {
+  margin: 5px 0;
+  font-size: 12px;
+}
+.footHead {
+  font-size: 20px;
+  font-weight: bold;
+}
+.footerCity {
+  padding: 0 2%;
+}
+input {
+  height: 30px;
+  color: gray;
+}
+.copyright {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-top: -2%;
+  color: #FFFFFF;
+}
 body {
   font-family: Roboto, Arial, sans-serif;
 }
