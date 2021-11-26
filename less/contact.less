@@ -1,0 +1,105 @@
+@import "navigation.less";
+
+.picTextOne {
+  font-size: 72px;
+  color: white;
+  margin-top: -7%;
+
+  @media (max-width: 500px) {
+    margin-top: -20%;
+  }
+}
+
+.mainSectionContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  @media (max-width: 500px) {
+    flex-direction: column;
+  }
+}
+
+.formSection {
+  display: flex;
+  flex-direction: column;
+  margin: 0 12%;
+  margin-top: 15%;
+  width: 45%;
+
+  @media (max-width: 500px) {
+    width: 100%;
+  }
+}
+
+.contactButton {
+  margin-top: 5%;
+  width: 33%;
+  height: 50px;
+  background-color: #ffffff;
+  border: 1px solid black;
+
+  @media (max-width: 500px) {
+    width: 76%;
+  }
+}
+
+.formSection h4 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 3%;
+}
+
+.email {
+  margin: 10% 0;
+}
+
+.emailGray {
+  color: grey;
+  margin-top: -4%;
+}
+
+.inputEmail {
+  margin-bottom: 5%;
+  width: 75%;
+}
+
+.inputBrief {
+  height: 250px;
+  width: 75%;
+}
+
+.contactSection {
+  margin-top: 15%;
+  margin-right: 10%;
+  font-size: 24px;
+
+  @media (max-width: 500px) {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    margin-right: 0;
+    margin-left: -25%;
+  }
+}
+
+.contactSection h2 {
+  font-weight: bold;
+  margin-bottom: 15%;
+}
+
+.contactCity {
+  margin-top: 25%;
+}
+
+.contactCity li {
+  font-size: 24px;
+  height: 50px;
+}
+
+.contactHead {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+@import "footer.less";

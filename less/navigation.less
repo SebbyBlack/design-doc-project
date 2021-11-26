@@ -12,18 +12,9 @@ nav {
 
 nav h4 {
   color: #ffffff;
-  margin-top: .9%;
+  margin-top: 0.9%;
   margin-left: 5%;
   font-size: 24px;
-}
-
-nav h4 a {
-  text-decoration: none;
-  color: #ffffff;
-}
-
-nav h4 a:hover {
-  color: lightblue;
 }
 
 .navList {
@@ -38,9 +29,8 @@ nav h4 a:hover {
 }
 
 .navList li a {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 24px;
- 
 }
 
 span {
@@ -66,40 +56,43 @@ span:hover {
 
 .overlay-content {
   position: relative;
-  top: 30%;
+  top: 25%;
   width: 100%;
   text-align: center;
   margin-top: 30px;
 }
 
 .overlay a {
-  padding: 2% 0;
-  
+  padding: 8px;
   text-decoration: none;
   font-size: 36px;
-  color: #FFFFFF;
+  color: #ffffff;
   display: block;
   transition: 0.3s;
 }
 
-.overlay a:hover, .overlay a:focus {
+.overlay a:hover,
+.overlay a:focus {
   color: lightblue;
 }
 
 .overlay .closebtn {
   position: absolute;
-  top: -10px;
-  right: 85px;
+  top: 20px;
+  right: 45px;
   font-size: 60px;
 }
 
 @media screen and (max-height: 500px) {
-  .overlay {overflow-y: auto;}
-  .overlay a {font-size: 20px}
+  .overlay {
+    overflow-y: auto;
+  }
+  .overlay a {
+    font-size: 20px;
+  }
   .overlay .closebtn {
-  font-size: 40px;
-  top: 15px;
-  right: 35px;
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
   }
 }
-
